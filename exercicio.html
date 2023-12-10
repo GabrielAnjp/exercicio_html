@@ -6,17 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Exercicio Html</h1>
+    <h1>EXERCICIO HTML</h1>
     <br>
-    <h2>Formulario para Cadastro</h2>
+    <h2>FORMULARIO DE CADASTRO</h2>
     <form>
-        <input type="Nome" placeholder="Seu Nome">
+        <div>
+            <label for="Nome">Nome:</label>
+            <input type="text" id="Nome" name="Nome" required>
+        </div>
         <br>
-        <input type="E-mail" placeholder="Seu E-mail">
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
         <br>
-        <input type="Senha" placeholder="Sua Senha">
+        <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+        </div>
         <br>
-        <input type="button" value="clique Aqui">
+        <button>Cadastrar</button>
     </form>
 </body>
 </html>
